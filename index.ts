@@ -17,7 +17,6 @@ CLIENT.login(TOKEN).catch((err) => {
 });
 
 
-// assign GUILD and CHANNEL and unmute everyone when bot is ready
 CLIENT.on("ready", () => {
     console.log("Bot is ready");
 
