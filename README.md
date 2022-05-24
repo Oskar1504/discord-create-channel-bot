@@ -15,3 +15,13 @@
     - Parameter
         - Channelname  -  required
         - Max channel user  -  not required
+
+## technische umsetzung
+- discord js doku
+    - https://discord.js.org/#/docs/discord.js/stable/general/welcome  
+- channel creation
+    - https://discord.js.org/#/docs/discord.js/stable/class/GuildChannelManager?scrollTo=create
+- channel leave event
+    - https://discord.js.org/#/docs/discord.js/stable/class/Client?scrollTo=e-voiceStateUpdate
+    - direktes code bsp
+        - https://stackoverflow.com/a/64932078   
