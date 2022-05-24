@@ -1,27 +1,21 @@
 {
-  "name": "discord-create-channel-bot",
+  "name": "discord_role_bot",
   "version": "1.0.0",
-  "description": "## Setup - grundlegende technische frameworks     - node.js     - discord.js",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node index.js"
+    "dev": "node deploy_commands.js && nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Oskar1504/discord-create-channel-bot.git"
-  },
-  "keywords": [
-    "discord"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Oskar1504/discord-create-channel-bot/issues"
-  },
-  "homepage": "https://github.com/Oskar1504/discord-create-channel-bot#readme",
   "dependencies": {
-    "discord.js": "^13.7.0",
-    "events": "^3.3.0"
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
   }
 }

@@ -1,0 +1,16 @@
+Small Bot which allows to join and leave roles
+
+Commands:
+/roles info   -> displays this message
+/roles list  -> displays all available roles
+/roles join <roleName>   -> add role to you
+/roles leave <roleName>  -> removes role
+---Admin commands---
+/roles create <roleName> <roleColor>   -> adds role
+    - only whitelisted user can create roles
+/roles forcejoin <userId> <roleName>   -> add role to specific user
+    - only whitelisted user can create roles
+/roles edit <roleName>   -> Set Mentionable to true hardcoded
+    - only whitelisted user can create roles
+
+roleName is the name mentioned in /roles list

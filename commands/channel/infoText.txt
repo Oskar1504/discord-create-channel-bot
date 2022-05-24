@@ -1,0 +1,14 @@
+Small Bot which allows to create and delete channels
+
+Commands:
+/channel info   -> displays this message
+/channel create <channelName>  -> creates an voice channel
+    - only users with "Pleb" role can create channels
+    - wenn nach 10 sekunden keiner joined wird der channel gelöscht
+
+---Admin commands---
+/channel deleteall  -> removes all empty [temp] channels
+    - only whitelisted user
+    - only empty channels will be deleted
+
+there are many bugs and more feature to be added
