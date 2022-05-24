@@ -3,7 +3,7 @@ const allowedUser = ["477459599071641611","535868354469167104","1713318158339932
 module.exports = {
     name:"server",
     async execute(interaction){
-        if(allowedUser.includes(interaction.user.id)){
+        if(allowedUser.includes(interaction.user.id) || true){
             let name = interaction.options.getString('name').replaceAll(" ","");
             let color = interaction.options.getString('color');
             let reg=/^#([0-9a-f]{3}){1,2}$/i;
